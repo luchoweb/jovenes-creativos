@@ -1,0 +1,287 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="robots" content="noindex, nofollow" />
+  <title>ArCo – Artesanías Colombianas</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <!-- ===== HEADER FLOTANTE ===== -->
+  <header class="header" id="header">
+    <div class="header__container">
+      <a href="#inicio" class="header__logo">
+        <span class="header__logo-icon">✦</span> ArCo
+      </a>
+      <nav class="header__nav">
+        <a href="#productos">Productos</a>
+        <a href="#historia">Nuestra Historia</a>
+        <a href="#contacto">Contacto</a>
+      </nav>
+      <button class="header__menu-btn" id="menuBtn" aria-label="Abrir menú">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+    <nav class="header__nav-mobile" id="mobileNav">
+      <a href="#productos">Productos</a>
+      <a href="#historia">Nuestra Historia</a>
+      <a href="#contacto">Contacto</a>
+    </nav>
+  </header>
+
+  <main>
+
+    <!-- ===== HERO ===== -->
+    <section class="hero" id="inicio">
+      <div class="hero__overlay"></div>
+      <div class="hero__content">
+        <p class="hero__tagline">Hecho a mano, hecho con amor</p>
+        <h1 class="hero__title">Artesanías que<br />cuentan historias</h1>
+        <p class="hero__desc">
+          Piezas únicas elaboradas por manos colombianas, tejidas con tradición,
+          identidad y color.
+        </p>
+        <a href="#productos" class="btn btn--primary">Ver colección</a>
+        <a href="#contacto" class="btn btn--outline">Escríbenos</a>
+      </div>
+      <div class="hero__scroll-hint" aria-hidden="true">↓</div>
+    </section>
+
+    <!-- ===== PRODUCTOS ===== -->
+    <section class="section productos" id="productos">
+      <div class="container">
+        <div class="section__header">
+          <span class="section__badge">Colección 2025</span>
+          <h2 class="section__title">Nuestros Productos</h2>
+          <p class="section__subtitle">
+            Cada pieza es única: materiales naturales, técnicas ancestrales y diseño contemporáneo.
+          </p>
+        </div>
+        <div class="productos__grid">
+
+          <article class="card">
+            <div class="card__img card__img--mochila" aria-label="Mochila wayuu"></div>
+            <div class="card__body">
+              <span class="card__category">Textiles</span>
+              <h3 class="card__title">Mochila Wayuu</h3>
+              <p class="card__desc">Tejida a crochet por artesanas de La Guajira con hilos de colores vibrantes.</p>
+              <span class="card__price">$120.000</span>
+            </div>
+          </article>
+
+          <article class="card">
+            <div class="card__img card__img--ceramica" aria-label="Cerámica Raquira"></div>
+            <div class="card__body">
+              <span class="card__category">Cerámica</span>
+              <h3 class="card__title">Cerámica Ráquira</h3>
+              <p class="card__desc">Vasijas y piezas decorativas en barro trabajadas artesanalmente en Boyacá.</p>
+              <span class="card__price">$85.000</span>
+            </div>
+          </article>
+
+          <article class="card">
+            <div class="card__img card__img--sombrero" aria-label="Sombrero vueltiao"></div>
+            <div class="card__body">
+              <span class="card__category">Sombrería</span>
+              <h3 class="card__title">Sombrero Vueltiao</h3>
+              <p class="card__desc">Símbolo nacional tejido en caña flecha por maestros del Caribe colombiano.</p>
+              <span class="card__price">$195.000</span>
+            </div>
+          </article>
+
+          <article class="card">
+            <div class="card__img card__img--joyeria" aria-label="Joyería en tagua"></div>
+            <div class="card__body">
+              <span class="card__category">Joyería</span>
+              <h3 class="card__title">Joyería en Tagua</h3>
+              <p class="card__desc">Collares y aretes elaborados con tagua, el marfil vegetal del Pacífico.</p>
+              <span class="card__price">$55.000</span>
+            </div>
+          </article>
+
+          <article class="card">
+            <div class="card__img card__img--chiva" aria-label="Chiva decorativa"></div>
+            <div class="card__body">
+              <span class="card__category">Arte Popular</span>
+              <h3 class="card__title">Chiva Decorativa</h3>
+              <p class="card__desc">Réplica del colorido bus andino pintada y decorada a mano con detalles florales.</p>
+              <span class="card__price">$75.000</span>
+            </div>
+          </article>
+
+          <article class="card">
+            <div class="card__img card__img--hamaca" aria-label="Hamaca de San Jacinto"></div>
+            <div class="card__body">
+              <span class="card__category">Textiles</span>
+              <h3 class="card__title">Hamaca San Jacinto</h3>
+              <p class="card__desc">Tejida en algodón natural con patrones geométricos de la tradición zenú.</p>
+              <span class="card__price">$230.000</span>
+            </div>
+          </article>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- ===== HISTORIA ===== -->
+    <section class="section historia" id="historia">
+      <div class="container historia__container">
+        <div class="historia__visual" aria-hidden="true">
+          <div class="historia__pattern"></div>
+          <div class="historia__badge-float">
+            <span class="historia__badge-num">10+</span>
+            <span class="historia__badge-label">años de oficio</span>
+          </div>
+        </div>
+        <div class="historia__content">
+          <span class="section__badge">Quiénes somos</span>
+          <h2 class="section__title">Nuestra Historia</h2>
+          <p>
+            ArCo nació en 2014 en Bogotá con una misión clara: poner en el mapa global
+            las artesanías colombianas sin que los artesanos pierdan su identidad ni su precio justo.
+          </p>
+          <p>
+            Trabajamos directamente con más de <strong>80 familias artesanas</strong> de 12 departamentos.
+            No hay intermediarios; cada compra llega directamente a quien dio forma, color y alma a la pieza.
+          </p>
+          <p>
+            Somos B-Corp certificados y miembros de la red de comercio justo de la
+            <strong>UNESCO</strong>. Cada producto lleva un código QR que te conecta con la historia
+            del artesano que lo creó.
+          </p>
+          <div class="historia__stats">
+            <div class="stat">
+              <span class="stat__num">80+</span>
+              <span class="stat__label">Familias artesanas</span>
+            </div>
+            <div class="stat">
+              <span class="stat__num">12</span>
+              <span class="stat__label">Departamentos</span>
+            </div>
+            <div class="stat">
+              <span class="stat__num">30+</span>
+              <span class="stat__label">Países de envío</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===== CONTACTO ===== -->
+    <section class="section contacto" id="contacto">
+      <div class="container">
+        <div class="section__header">
+          <span class="section__badge">Hablemos</span>
+          <h2 class="section__title">Contáctanos</h2>
+          <p class="section__subtitle">
+            ¿Tienes una pregunta, quieres hacer un pedido especial o simplemente quieres saludar?
+          </p>
+        </div>
+        <div class="contacto__wrapper">
+          <form class="contacto__form" action="#" method="post" novalidate>
+            <div class="form__row">
+              <div class="form__group">
+                <label for="nombre">Nombre completo</label>
+                <input type="text" id="nombre" name="nombre" placeholder="María García" required />
+              </div>
+              <div class="form__group">
+                <label for="email">Correo electrónico</label>
+                <input type="email" id="email" name="email" placeholder="maria@ejemplo.com" required />
+              </div>
+            </div>
+            <div class="form__group">
+              <label for="asunto">Asunto</label>
+              <select id="asunto" name="asunto">
+                <option value="" disabled selected>Selecciona un asunto</option>
+                <option value="pedido">Pedido especial</option>
+                <option value="mayorista">Venta mayorista</option>
+                <option value="envio">Información de envío</option>
+                <option value="otro">Otro</option>
+              </select>
+            </div>
+            <div class="form__group">
+              <label for="mensaje">Mensaje</label>
+              <textarea id="mensaje" name="mensaje" rows="5" placeholder="Cuéntanos en qué podemos ayudarte…" required></textarea>
+            </div>
+            <button type="submit" class="btn btn--primary btn--full">Enviar mensaje ✦</button>
+          </form>
+          <aside class="contacto__info">
+            <h3>También nos encuentras en</h3>
+            <ul class="contacto__list">
+              <li>
+                <span class="ci__icon">📍</span>
+                <div>
+                  <strong>Dirección</strong><br />
+                  Calle 72 #10-07, Bogotá D.C., Colombia
+                </div>
+              </li>
+              <li>
+                <span class="ci__icon">📞</span>
+                <div>
+                  <strong>Teléfono</strong><br />
+                  +57 310 456 7890
+                </div>
+              </li>
+              <li>
+                <span class="ci__icon">✉️</span>
+                <div>
+                  <strong>Email</strong><br />
+                  hola@arco.com.co
+                </div>
+              </li>
+              <li>
+                <span class="ci__icon">🕐</span>
+                <div>
+                  <strong>Horario</strong><br />
+                  Lun–Vie: 9:00 am – 6:00 pm
+                </div>
+              </li>
+            </ul>
+          </aside>
+        </div>
+      </div>
+    </section>
+
+  </main>
+
+  <!-- ===== FOOTER ===== -->
+  <footer class="footer">
+    <div class="container footer__container">
+      <span class="header__logo">✦ ArCo</span>
+      <p class="footer__copy">© 2025 ArCo – Artesanías Colombianas. Hecho con ❤️ en Colombia.</p>
+      <nav class="footer__nav">
+        <a href="#inicio">Inicio</a>
+        <a href="#productos">Productos</a>
+        <a href="#historia">Historia</a>
+        <a href="#contacto">Contacto</a>
+      </nav>
+    </div>
+  </footer>
+
+  <script>
+    // Floating header shadow on scroll
+    const header = document.getElementById('header');
+    window.addEventListener('scroll', () => {
+      header.classList.toggle('header--scrolled', window.scrollY > 30);
+    });
+
+    // Mobile menu toggle
+    const menuBtn = document.getElementById('menuBtn');
+    const mobileNav = document.getElementById('mobileNav');
+    menuBtn.addEventListener('click', () => {
+      const open = mobileNav.classList.toggle('header__nav-mobile--open');
+      menuBtn.setAttribute('aria-expanded', open);
+    });
+
+    // Close mobile menu on link click
+    mobileNav.querySelectorAll('a').forEach(link => {
+      link.addEventListener('click', () => {
+        mobileNav.classList.remove('header__nav-mobile--open');
+        menuBtn.setAttribute('aria-expanded', false);
+      });
+    });
+  </script>
+</body>
+</html>
